@@ -7,7 +7,8 @@ let g:colors_name="tomorrow-night"
 " hi Foldcolumn guibg=NONE
 " hi link VertSplit Comment
 
-hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=#1d1f21
+hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=NONE
+" hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=#1d1f21
 hi! Bold           cterm=bold gui=bold
 hi! Debug          ctermfg=1 guifg=#cc6666
 hi! Directory      ctermfg=4 guifg=#81a2be
@@ -55,7 +56,7 @@ hi! QuickFixLine   ctermbg=10 guibg=#282a2e
 hi! Pmenu          ctermfg=7 ctermbg=10 guifg=#c5c8c6 guibg=#282a2e
 hi! PmenuSel       ctermfg=10 ctermbg=7 guifg=#282a2e guibg=#c5c8c6
 hi! TabLine        ctermfg=8 ctermbg=10 guifg=#969896 guibg=#282a2e
-hi! TabLineFill    ctermfg=8 ctermbg=10 guifg=#969896 guibg=#282a2e
+hi! TabLineFill    ctermfg=8 ctermbg=10 guifg=#000000 guibg=#282a2e
 hi! TabLineSel     ctermfg=2 ctermbg=10 guifg=#b5bd68 guibg=#282a2e
 hi! Boolean        ctermfg=9 guifg=#de935f
 hi! Character      ctermfg=1 guifg=#cc6666
