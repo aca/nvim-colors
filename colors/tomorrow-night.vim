@@ -96,3 +96,14 @@ hi! Typedef        ctermfg=3 guifg=#f0c674
 " hi SignifySignAdd    ctermfg=green  guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignDelete ctermfg=red    guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignChange ctermfg=yellow guifg=#696969 cterm=NONE guibg=NONE
+
+
+hi! DiffAdd      guifg=#b5bd68, guibg=#282a2e
+hi! DiffChange   guifg=#969896, guibg=#282a2e
+hi! DiffDelete   guifg=#cc6666, guibg=#282a2e
+hi! DiffText     guifg=#81a2be, guibg=#282a2e
+hi! DiffAdded    guifg=#b5bd68, guibg=#1d1f21
+hi! DiffFile     guifg=#cc6666, guibg=#1d1f21
+hi! DiffNewFile  guifg=#b5bd68, guibg=#1d1f21
+hi! DiffLine     guifg=#81a2be, guibg=#1d1f21
+hi! DiffRemoved  guifg=#cc6666, guibg=#1d1f21
