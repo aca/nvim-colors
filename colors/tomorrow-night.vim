@@ -7,8 +7,9 @@ let g:colors_name="tomorrow-night"
 " hi Foldcolumn guibg=NONE
 " hi link VertSplit Comment
 
-hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=NONE
 " hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=#1d1f21
+hi! Normal         ctermfg=7 ctermbg=0 guifg=#c5c8c6 guibg=NONE
+
 hi! Debug          ctermfg=1 guifg=#cc6666
 hi! Directory      ctermfg=4 guifg=#81a2be
 hi! Error          ctermfg=0 ctermbg=1 guifg=#1d1f21 guibg=#cc6666
@@ -57,8 +58,8 @@ hi! StatusLine guibg=#282a2e guifg=#EDDFEF gui=NONE
 hi! link VertSplit   Comment
 hi! ColorColumn    ctermbg=10 guibg=#282a2e
 hi! CursorColumn   ctermbg=10 guibg=#282a2e
-" hi! CursorLine     ctermbg=10 guibg=#282a2e
-hi! CursorLine     ctermbg=10 guibg=#321325
+hi! CursorLine     ctermbg=10 guibg=#282a2e
+" hi! CursorLine     ctermbg=10 guibg=#321325
 hi! QuickFixLine   ctermbg=10 guibg=#282a2e
 hi! Pmenu          ctermfg=7 ctermbg=10 guifg=#c5c8c6 guibg=#282a2e
 hi! PmenuSel       ctermfg=10 ctermbg=7 guifg=#282a2e guibg=#c5c8c6
@@ -93,17 +94,21 @@ hi! Todo           ctermfg=3 ctermbg=10 guifg=#f0c674 guibg=#282a2e
 hi! Type           ctermfg=3 guifg=#f0c674
 hi! Typedef        ctermfg=3 guifg=#f0c674
 
+" hi! DiffAdd      guifg=#b5bd68, guibg=#282a2e
+" hi! DiffChange   guifg=#969896, guibg=#282a2e
+" hi! DiffDelete   guifg=#cc6666, guibg=#282a2e
+" hi! DiffText     guifg=#81a2be, guibg=#282a2e
+" hi! DiffAdded    guifg=#b5bd68, guibg=#1d1f21
+" hi! DiffFile     guifg=#cc6666, guibg=#1d1f21
+" hi! DiffNewFile  guifg=#b5bd68, guibg=#1d1f21
+" hi! DiffLine     guifg=#81a2be, guibg=#1d1f21
+" hi! DiffRemoved  guifg=#cc6666, guibg=#1d1f21
+hi! DiffAdd    guibg=#283B4D guifg=NONE
+hi! DiffChange guibg=#283B4D guifg=NONE
+hi! DiffDelete guibg=#3C2C3C guifg=#725272 gui=bold
+hi! DiffText   guibg=#365069 guifg=NONE
+
+
 " hi SignifySignAdd    ctermfg=green  guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignDelete ctermfg=red    guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignChange ctermfg=yellow guifg=#696969 cterm=NONE guibg=NONE
-
-
-hi! DiffAdd      guifg=#b5bd68, guibg=#282a2e
-hi! DiffChange   guifg=#969896, guibg=#282a2e
-hi! DiffDelete   guifg=#cc6666, guibg=#282a2e
-hi! DiffText     guifg=#81a2be, guibg=#282a2e
-hi! DiffAdded    guifg=#b5bd68, guibg=#1d1f21
-hi! DiffFile     guifg=#cc6666, guibg=#1d1f21
-hi! DiffNewFile  guifg=#b5bd68, guibg=#1d1f21
-hi! DiffLine     guifg=#81a2be, guibg=#1d1f21
-hi! DiffRemoved  guifg=#cc6666, guibg=#1d1f21
