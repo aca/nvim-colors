@@ -41,7 +41,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if !exists('g:substrata_italic_functions')
     let g:substrata_italic_functions = 1
   endif
-  hi Normal guifg=#b5b4c9 guibg=#191c25 gui=NONE cterm=NONE
+  " hi Normal guifg=#b5b4c9 guibg=#191c25 gui=NONE cterm=NONE
   hi Cursor guifg=#191c25 guibg=#f0ecfe gui=NONE cterm=NONE
   hi None guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi CursorLineNr guifg=#6c6f82 guibg=#20222d gui=NONE cterm=NONE
