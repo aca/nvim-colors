@@ -112,3 +112,8 @@ hi! DiffText   guibg=#365069 guifg=NONE
 " hi SignifySignAdd    ctermfg=green  guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignDelete ctermfg=red    guifg=#696969 cterm=NONE guibg=NONE
 " hi SignifySignChange ctermfg=yellow guifg=#696969 cterm=NONE guibg=NONE
+
+hi! link LspDiagnosticsDefaultInformation Comment
+hi! link LspDiagnosticsDefaultHint Comment
+hi! link LspDiagnosticsDefaultError Comment
+hi! link LspDiagnosticsDefaultWarning Comment

@@ -431,3 +431,8 @@ endif
 " Term colors: base5      light_red  light_green light_yellow
 " Term colors: light_blue light_pink light_cyan  base8
 " vim: et ts=2 sw=2
+
+hi! link LspDiagnosticsDefaultInformation Comment
+hi! link LspDiagnosticsDefaultHint Comment
+hi! link LspDiagnosticsDefaultError Comment
+hi! link LspDiagnosticsDefaultWarning Comment
